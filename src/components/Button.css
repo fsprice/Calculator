@@ -1,0 +1,32 @@
+button {
+    border: none;
+    background-color: rgb(141, 188, 226);
+    font-size: 24px;
+    color: rgb(43, 40, 40);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 45%;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease, transform 0.1s ease; 
+  }
+  
+  button:hover {
+    background-color: rgb(104, 170, 224);
+    transform: translateY(-1px); 
+  }
+  
+  .equals {
+    grid-column: 1 / 5;
+    margin-top: 10px;
+    background-color: rgb(235, 145, 190);
+    border-radius: 15px;
+    height: 60px;
+    
+  }
+  
+  .equals:hover {
+    background-color: rgb(235, 110, 172);
+  }
+
+  
